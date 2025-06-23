@@ -17,7 +17,7 @@
 *{margin: 0;padding: 0;}
 a{text-decoration: none;color:#fff;}
 body{
-    background-color: #BEBEBF;
+    background-color: #000;
     font-family: 'Cygre-Bold', sans-serif;
 }
 main{
@@ -252,6 +252,9 @@ width: 25vw;
     transform: translateX(-50%);
     bottom:4.16vw;
 }
+.mainn{
+    background-color: #BEBEBF;
+}
 
 @media (max-width: 760px){
     li{
@@ -362,4 +365,8 @@ width: 25vw;
     .main4 img{
         width: 40vw;
     }
+    .main4{
+        height: 80vh;
+    }
 }
+
