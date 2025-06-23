@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'Cygre-Bold';
+    src: url('font/Cygre-Bold-BF63eeebf566546.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cygre-Medium';
+    src: url('font/Cygre-Medium-BF63eeebf75cc00.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cygre-Regular';
+    src: url('font/Cygre-Regular-BF63eeebf4df0b6.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BasisGrotesque';
+    src: url('font/BasisGrotesqueArabicPro-Regular.ttf') format('truetype');
+}
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color:#fff;}
+body{
+    background-color: #BEBEBF;
+    font-family: 'Cygre-Bold', sans-serif;
+}
+main{
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+.me{
+    margin-top: 20vh;
+    height: 180vh;
+    position: absolute;
+    top: 0;
+   left: 50%;
+   transform: translate(-50%);
+}
+.ob{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 2vw 4.16vw;
+    font-size: 31px;
+    color: #fff;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    font-size: 17px;
+    margin-left: 1.2vw;
+}
+
+.main-h1{
+    font-size: 11vw;
+    position: absolute;
+    left: 50%;
+    top: 30vw;
+    transform: translate(-50% , -50%);
+    z-index: -1;
+    color:#C5C5C6;
+     opacity: 1;
+    transition: opacity 0.2s linear;
+}
+.osnova{
+    position: relative;
+    height: 200vh;
+}
+.polosa1, .polosa2{
+    position: absolute;
+    bottom: 10vw;
+    transform: rotate(5deg);
+    width: 110vw;
+}
+.polosa2{
+    transform: rotate(-5deg);
+}
+.block{
+    background-color: #000;
+    width:100vw;
+    color:#fff;
+    padding-left:4.16vw;
+    position: relative;
+}
+.block h2{
+    padding-top:4.16vw;
+    font-size: 4.6875vw;
+    margin-bottom: 4.8vh;
+}
+.block h3{
+    font-size: 3.3854vw;
+    opacity:.75;
+    margin-bottom: 4.8vh;
+}
+.block h4{
+    font-size: 2.8646vw;
+     opacity:.65;
+     margin-bottom: 4.8vh;
+}
+.block h5{
+    font-size: 2.6042vw;
+     opacity:.55;
+     margin-bottom: 4.8vh;
+}
+.block h6{
+    font-size: 2.0833vw;
+     opacity:.45;
+     padding-bottom: 16vh;
+}
+.block div{
+    text-align: center;
+    width: 67.7vw;
+    font-size:1.1458vw;
+    font-family: 'Cygre-Medium', sans-serif;
+    position: relative;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.header-2 .ob, .header-2 a{
+    font-family: 'Cygre-Medium', sans-serif;
+    color: #000!important;
+}
+.main2{
+    background-color: #fff;
+    font-family: 'BasisGrotesque', sans-serif;
+    font-size: 22px;
+}
+.main2 h6{
+    margin-top:15vh;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 500;
+}
+.p1{
+    margin-left: 4.16vw;
+    margin-top:4vw;
+    width:22vw;
+}
+.img1{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width: 23vw;
+}
+.bob{
+    position: relative;
+    height: 100vh;
+}
+.p2{
+    position: absolute;
+    right:4.16vw;
+    bottom:4.16vw;
+    transform: translateY(-50%);
+    width: 22vw;
+}
+.img2{
+    margin-top:2.16vw;
+    margin-left:4.16vw;
+    width: 18.75vw;
+}
+.p3{
+    width: 22vw;
+    text-align: center;
+    margin: 4.16vw auto;
+}
+.img3{
+    float: right;
+    margin-right:4.16vw;
+    height: 38vw;
+}
+.asd{
+    position: relative;
+    height: 38vw;
+}
+.img4{
+position: absolute;
+bottom: 4.16vw;
+margin-left:4.16vw ;
+width: 25vw;
+}
+.bottom{
+    text-align: center;
+    font-size: 18px;
+    margin-top:4.16vw;
+    margin-bottom:1vw;
+}
+.main3{
+    background-color:#F3E6BB;
+}
+.main3 h6{
+    font-size: 4vw;
+     font-family: 'BasisGrotesque', sans-serif;
+     font-weight: 500;
+     width: 75vw;
+     text-align: center;
+     margin: 0 auto;
+     margin-top:200px;
+     color: #1D3A4E;
+}
+.pp{
+    padding:10vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp img{
+    max-height: 80vh;
+    max-width: 80vw;
+}
+.pd2{
+    background-color:#16213B ;
+}
+.pd3{
+    background-color:#1C2F38 ;
+}
+.pd4{
+    background-color:#AC8659 ;
+}
+.pd5{
+    background-color:#E4BF8C ;
+}
+.main4{
+    background-color: #000;
+    height: 100vh;
+}
+.main4 p{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50% , -50%);
+    font-family: 'BasisGrotesque', sans-serif;
+    font-size: 1.3542vw;
+    text-align: center;
+    width: 47vw;
+    text-align: center;
+    color: transparent;
+    background: radial-gradient(84% 85% at 50% 0%, rgb(255, 255, 255) 33.167%, rgb(91, 91, 91) 63.167%, rgb(59, 59, 59) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main4 img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:4.16vw;
+}
+
+@media (max-width: 760px){
+    li{
+        font-size: 9px;
+    }
+    .mee{
+        display: none;
+    }
+    .ob{
+        justify-content: center;
+    }
+    ul{
+        margin-top: 20px;
+        justify-content: space-between;
+        width: 90vw;
+    }
+    .me{
+        height: 130vh;
+    }
+    .osnova{
+        height: 150vh;
+    }
+    .polosa1, .polosa2{
+        display: none;
+    }
+    .main-h1{
+        top: 150px;
+        text-align:13vw;
+    }
+    .block h1,.block h2,.block h3,.block h4,.block h5{
+        margin-bottom: 1vh;
+    }
+    .block div{
+        font-size:12px;
+        width: 100%;
+        margin-left:-4.16vw;
+    }
+}
+@media (max-width: 850px){
+    .main2{
+        font-size: 12px;
+    }
+    .bottom{
+        font-size: 10px;
+    }
+}
+@media (max-width: 500px){
+    .main2 h6{
+        margin-top: 50px;
+    }
+    .main2{
+        font-size: 16px;
+    }
+    .p1{
+        width: 60vw;
+    }
+    .img1{
+        width:65vw;
+        margin-top:20px;
+    }
+    .p2{
+        position: relative;
+        transform: none;
+        width: 70vw;
+        right: 4.16vw;
+        float: right;
+        bottom: 0;
+        margin-top: 15px;
+    }
+    .img2{
+        width:45vw;
+        margin-top: 20px;
+    }
+    .p3{
+        width: 80vw;
+    }
+    .img3{
+        height: 80vw;
+    }
+    .asd{
+         height: 80vw;
+    }
+    .bob{
+        height: auto;
+    }
+    .img4{
+        display: none;
+    }
+    .pp img{
+    max-height: 95vh;
+    max-width: 95vw;
+}
+.main3 h6 {
+    font-size: 4.5vw;
+    width: 95vw;
+    margin-top: 80px;
+}
+.block div {
+        font-size: 8px;
+        width: 90%;
+        margin-left: -4.16vw;
+    }
+    .main4 p{
+        font-size: 3vw;
+    width: 95vw;
+    line-height: 160%;
+    }
+    .main4 img{
+        width: 40vw;
+    }
+}
