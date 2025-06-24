@@ -37,6 +37,7 @@ header{
     top: 0;
    left: 50%;
    transform: translate(-50%);
+    z-index:2;
 }
 .ob{
     display: flex;
@@ -61,7 +62,7 @@ li{
     left: 50%;
     top: 30vw;
     transform: translate(-50% , -50%);
-    z-index: -1;
+    z-index: 0;
     color:#C5C5C6;
      opacity: 1;
     transition: opacity 0.2s linear;
@@ -75,6 +76,7 @@ li{
     bottom: 10vw;
     transform: rotate(5deg);
     width: 110vw;
+    z-index:3;
 }
 .polosa2{
     transform: rotate(-5deg);
